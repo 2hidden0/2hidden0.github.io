@@ -8,30 +8,131 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="dark-mode"> <!-- Default dark-mode class -->
+<body class="dark-mode">
     <header>
         <nav>
             <ul>
                 <li><a href="index.html" id="homeButton">Home</a></li>
                 <li><a href="recentlyWatched.html">Recently Watched</a></li>
-                <li><a href="liveTV.html">Live TV</a></li> <!-- Live TV page link -->
+                <li><a href="liveTV.html">Live TV</a></li>
             </ul>
         </nav>
         <h1>Live TV Streaming</h1>
     </header>
 
     <main>
-        <!-- Live TV Channels Posters -->
         <section id="liveTvChannels">
             <h2>Choose a Channel</h2>
             <div class="content-grid">
-                <!-- ACC Network Poster -->
+                
+                <!-- Example Channel: ESPN Deportes -->
                 <div class="channel-poster">
-                    <img src="poster/acc-network-poster.jpg" alt="ACC Network Poster" class="poster" onclick="openPlayer('https://topembed.pw/channel/ACCNetwork[USA]')" />
-                    <h3>ACC Network [USA]</h3>
+                    <img src="poster/espn-deportes-poster.jpg" alt="ESPN Deportes Poster" class="poster" onclick="openPlayer('https://topembed.pw/channel/ESPNDeportes[USA]')" />
+                    <h3>ESPN Deportes [USA]</h3>
                 </div>
 
-                <!-- You can add more channels with a similar structure here -->
+                <!-- Add the following channels below in a similar format -->
+                <!-- Channel: ACC Network -->
+                <div class="channel-poster">
+                    <img src="poster/accn-poster.jpg" alt="accn Poster" class="poster" onclick="openPlayer('https://topembed.pw/channel/ACCNetwork[USA]')" />
+                    <h3>ACCN [USA]</h3>
+                </div>
+       <!-- Add the following channels below in a similar format -->
+                <!-- Channel: BTN -->
+                <div class="channel-poster">
+                    <img src="poster/BTN-poster.jpg" alt="BTN Poster" class="poster" onclick="openPlayer('https://topembed.pw/channel/BTN[USA]')" />
+                    <h3>BTN [USA]</h3>
+                </div>
+
+                <!-- Channel: ESPNU -->
+                <div class="channel-poster">
+                    <img src="poster/espnu-poster.jpg" alt="ESPNU Poster" class="poster" onclick="openPlayer('https://topembed.pw/channel/ESPNU[USA]')" />
+                    <h3>ESPNU [USA]</h3>
+                </div>
+
+                <!-- Channel: FOX Sports 1 -->
+                <div class="channel-poster">
+                    <img src="poster/fox-sports1-poster.jpg" alt="FOX Sports 1 Poster" class="poster" onclick="openPlayer('https://topembed.pw/channel/FOXSports1[USA]')" />
+                    <h3>FOX Sports 1 [USA]</h3>
+                </div>
+
+                <!-- Channel: FOX Sports 2 -->
+                <div class="channel-poster">
+                    <img src="poster/fox-sports2-poster.jpg" alt="FOX Sports 2 Poster" class="poster" onclick="openPlayer('https://topembed.pw/channel/FOXSports2[USA]')" />
+                    <h3>FOX Sports 2 [USA]</h3>
+                </div>
+
+                <!-- Channel: Golf Channel -->
+                <div class="channel-poster">
+                    <img src="poster/golf-channel-poster.jpg" alt="Golf Channel Poster" class="poster" onclick="openPlayer('https://topembed.pw/channel/GOLFChannel[USA]')" />
+                    <h3>Golf Channel [USA]</h3>
+                </div>
+
+                <!-- Channel: NBA TV -->
+                <div class="channel-poster">
+                    <img src="poster/nba-tv-poster.jpg" alt="NBA TV Poster" class="poster" onclick="openPlayer('https://topembed.pw/channel/NBATV[USA]')" />
+                    <h3>NBA TV [USA]</h3>
+                </div>
+
+                <!-- Channel: NFL Network -->
+                <div class="channel-poster">
+                    <img src="poster/nfl-network-poster.jpg" alt="NFL Network Poster" class="poster" onclick="openPlayer('https://topembed.pw/channel/NFLNetwork[USA]')" />
+                    <h3>NFL Network [USA]</h3>
+                </div>
+
+                <!-- Channel: NFL Redzone -->
+                <div class="channel-poster">
+                    <img src="poster/nfl-redzone-poster.jpg" alt="NFL Redzone Poster" class="poster" onclick="openPlayer('https://topembed.pw/channel/NFLRedzone[USA]')" />
+                    <h3>NFL Redzone [USA]</h3>
+                </div>
+
+                <!-- Add all other channels similarly by following the structure. -->
+
+                <!-- Example for one of the Tennis Channel Plus -->
+                <div class="channel-poster">
+                    <img src="poster/tennis-channel-plus-poster.jpg" alt="Tennis Channel Plus 1 Poster" class="poster" onclick="openPlayer('https://topembed.pw/channel/TennisChannelPlus1[USA]')" />
+                    <h3>Tennis Channel Plus  [USA]</h3>
+                </div>
+
+                <!-- Repeat for other channels like BallySports, Sportsnet, and others -->
+
+                <!-- Channel: USA Network -->
+                <div class="channel-poster">
+                    <img src="poster/usa-network-poster.jpg" alt="USA Network Poster" class="poster" onclick="openPlayer('https://topembed.pw/channel/USANetwork[USA]')" />
+                    <h3>USA Network [USA]</h3>
+                </div>
+
+                <!-- Channel: Willow TV -->
+                <div class="channel-poster">
+                    <img src="poster/willow-tv-poster.jpg" alt="Willow TV Poster" class="poster" onclick="openPlayer('https://topembed.pw/channel/WillovTV[USA]')" />
+                    <h3>Willow TV [USA]</h3>
+                </div>
+
+		<!-- Channel: Yes -->
+                <div class="channel-poster">
+                    <img src="poster/yes-poster.jpg" alt="YES Poster" class="poster" onclick="openPlayer('https://topembed.pw/channel/YES[USA]')" />
+                    <h3>Yes [USA]</h3>
+                </div>
+
+		<!-- Channel: Max -->
+                <div class="channel-poster">
+                    <img src="poster/Max-poster.jpg" alt="Max Poster" class="poster" onclick="openPlayer('https://topembed.pw/channel/Max[USA]')" />
+                    <h3>Max [USA]</h3>
+                </div>
+
+			<!-- Channel: MLB Network -->
+                <div class="channel-poster">
+                    <img src="poster/MLBN-poster.jpg" alt="MLB Network Poster" class="poster" onclick="openPlayer('https://topembed.pw/channel/MLBNetwork[USA]')" />
+                    <h3>MLB Network [USA]</h3>
+                </div>
+
+		<!-- Channel: Sportsnet One -->
+                <div class="channel-poster">
+                    <img src="poster/sportsnet-one-poster.jpg" alt="Sportsnet One Poster" class="poster" onclick="openPlayer('https://topembed.pw/channel/SportsnetOne[Canada]')" />
+                    <h3>Sportsnet One [USA]</h3>
+                </div>
+                <!-- Add other remaining channels here in similar format -->
+                
             </div>
         </section>
     </main>
@@ -49,28 +150,24 @@
     </footer>
 
     <script>
-        // Get the modal
         const videoModal = document.getElementById('videoModal');
         const liveTvPlayer = document.getElementById('liveTvPlayer');
         const closeModal = document.querySelector('.close');
 
-        // Open modal with the embed URL
         function openPlayer(url) {
             liveTvPlayer.src = url;
             videoModal.style.display = 'block';
         }
 
-        // Close the modal and stop the video
         closeModal.onclick = function () {
             videoModal.style.display = 'none';
-            liveTvPlayer.src = ''; // Stop the video
+            liveTvPlayer.src = '';
         };
 
-        // Close the modal when clicking outside of the modal content
         window.onclick = function (event) {
             if (event.target === videoModal) {
                 videoModal.style.display = 'none';
-                liveTvPlayer.src = ''; // Stop the video
+                liveTvPlayer.src = '';
             }
         }
     </script>
